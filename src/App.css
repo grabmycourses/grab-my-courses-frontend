@@ -1,0 +1,524 @@
+/*@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');*/
+
+/* html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+} */
+
+#homeTitle {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    margin: 8% 10% 7% 10%;
+}
+
+#homeSubTitle {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    margin: 2% 10% 7% 10%;
+}
+
+#homeSubSubTitle {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+    font-family: 'Dosis', sans-serif;
+    margin: 2% 10% 7% 10%;
+}
+
+#homeImageDiv {
+    padding-right: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#homeImage {
+    /* position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto; */
+    padding-right: 0%;
+    height: 100%;
+    width: 100%;
+} 
+
+/* #loginSignupCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    margin-top: 7%;
+} */
+
+.rememberMeCheck {
+    text-align: left;
+}
+
+.modal-dialog-centered {
+    justify-content: center;
+}
+
+.modal-content {
+    border-radius: 30px;
+    width:85%;
+}
+
+.success-modal-content {
+    background-color: #b3ffcc;
+}
+
+.error-modal-content {
+    background-color: #F7D7DA;
+}
+
+.modal-content .modal-footer .btn {
+    border-radius: 15px;
+    padding: 1% 8%;
+    font-size: 130%;
+}
+
+.alert-info {
+    border-radius: 15px;;
+}
+
+.alert-info:hover {
+    border-style: solid;
+    border-color: #3498db;
+    border-width: 2px;
+}
+
+
+/* ======== common table related properties start ========== */
+
+.main-table-class tbody, td, tfoot, th, thead, tr {
+    border-style: none !important;
+    text-align: center;
+}
+
+.table-page-container {
+    text-align: center;
+}
+
+.main-table-class {
+    width: 70%;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 550px;
+    /* box-shadow: 0 0 50px 3px rgba(0, 0, 255, .3);  */
+    margin:0 auto;
+}
+
+.main-table-class thead {
+    background-color: #009879;
+    color: #ffffff;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.main-table-class .table {
+    background-color: transparent;
+}
+
+.main-table-class td {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    /*background-color: rgb(237, 243, 158);*/
+}
+
+.main-table-class .selected-row
+{
+    background-color:lightpink;
+}
+
+.main-table-class tr:hover {
+    font-weight: bold;
+}
+
+.main-table-class tbody tr { /* body doesn't include head*/
+    /*border-bottom: 1px solid #08c531;*/
+    color: #03614e;
+}
+
+/* tbody tr:last-of-type {
+    border-bottom: 3px solid #009879;
+} */
+
+.main-table-class td:first-child,
+.main-table-class th:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+.main-table-class td:last-child,
+.main-table-class th:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+/* ========== common table properties over ========== */
+
+.stop-tracking-button {
+    padding-top: 2%;
+    margin-bottom: 70px;
+}
+
+.no-tracking-found {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    color: mediumblue;
+    margin: 15% 5% 3% 6%;
+    text-align: center;
+}
+
+.start-tracking-button {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* ==== for MOBILE === */
+
+@media only screen and (max-width: 600px) {
+
+    .main-table-class tr {
+        font-size: 90%;
+    }
+    
+    #center-aligned-button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto auto 15% auto;
+    }
+
+    .seach-container-outer-div {
+        width:90%;
+        padding: 1% 5% 0 5%;
+        margin: 4% auto 15% auto;
+        background-color: blanchedalmond;
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #3498db;
+    }
+
+    .searchResultsMsgDiv {
+        color: #009933;
+        text-align: center;
+        padding-top: 1%;
+    }
+
+    .seach-container-outer-div:hover {
+        width:94%;
+        box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+        transition: 1.25s;
+    }
+
+    #search-container-div {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #search-container-div .commonInfoDiv {
+        text-align: justify;
+    }
+
+    #search-container-div .commonInfoDiv .commonInfoDivText1 {
+        font-size: 25px;
+    }
+
+    #search-results-div {
+        width: 90%;
+        margin:0 auto;
+        text-align: center;
+    }
+
+    #search-result-table-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+        font-weight: bolder;
+        color: mediumblue;
+        margin-top: 5%;
+    }
+
+    #search-class-button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2% auto 6% auto;
+    }
+
+    #search-box-title {
+        padding-top:2%;
+        padding-bottom: 0;
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .table-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 200%;
+        font-weight: bolder;
+        color: mediumblue;
+        margin: 20% auto 10% auto;
+    }
+
+    .table-wrapper {
+        width: 95%;
+        display: inline-block;
+        background-color: 0 0 50px 3px rgba(0, 0, 255, .3);
+    }
+
+    .toast-wrapper-class {
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .stop-tracking-button {
+        padding-top: 5%;
+    }
+
+    #homeImageDiv {
+        padding-right: 3%;
+    }
+
+    .see-swap-options-button {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* ==== for LAPTOP === */
+
+@media only screen and (min-width: 600px) {
+    
+    #center-aligned-button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto auto 15% auto;
+    }
+
+    .seach-container-outer-div {
+        width:60%;
+        padding: 3% 5% 1% 5%;
+        margin: 2% auto 5% auto;
+        background-color: blanchedalmond;
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #3498db;
+    }
+
+    .searchResultsMsgDiv {
+        color: #009933;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    .seach-container-outer-div:hover {
+        box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+        transition: 1.25s;
+    }
+    
+    #search-container-div {
+        margin: 0 auto;
+    }
+
+    #search-container-div .commonInfoDiv {
+        text-align: justify;
+    }
+
+    #search-container-div .commonInfoDiv .commonInfoDivText1 {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    #search-results-div {
+        width: 75%;
+        margin:0 auto;
+        text-align: center;
+    }
+
+    #search-result-table-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 250%;
+        font-weight: bolder;
+        color: mediumblue;
+        margin-top: 3%;
+    }
+
+    #search-class-button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #search-box-title {
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    .table-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 400%;
+        font-weight: bolder;
+        color: mediumblue;
+        margin: 5% auto 3% auto;
+    }
+
+    .table-wrapper {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .see-swap-options-button {
+        display: block;
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
+.footer-div {
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    padding:10px
+}
+
+.footer-div a {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-div a:hover {
+    color:cyan;
+}
+
+
+
+/*** Swap preferences ***/
+.swap-pref-table {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.swap-pref-table tbody, td, tfoot, th, thead, tr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+/****** FAQs *******/
+.faqOuterDiv {
+    width: 80%;
+    margin: 4% auto;
+}
+
+.faqOuterDiv .faqs-heading {
+    text-align: center;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+.faqOuterDiv .faqs-subheading {
+    text-align: center;
+}
+
+.faqs {
+	width: 95%;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.faqs .faq {
+	margin: 15px;
+	padding: 15px;
+	background-color: blanchedalmond;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.faqs .faq:hover {
+    box-shadow: 2px 2px 5px #3498db, -2px -2px 5px #3498db;
+}
+
+.faqs .faq .faq-question {
+	position: relative;
+	font-size: 20px;
+	padding-right: 80px;
+
+	transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-question::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+
+	background-image: url('./images/arrow-down-mint.svg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq .faq-answer {
+	opacity: 0;
+	max-height: 0;
+	overflow-y: hidden;
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq.open .faq-question {
+	margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq-answer {
+	max-height: 1000px;
+	opacity: 1;
+}
+
+/* mobile specific faq */
+@media only screen and (max-width: 600px) {
+    .faqOuterDiv .faqs-heading {
+        font-size: 200%;
+        font-weight: 500;
+    }
+
+    .faqOuterDiv {
+        margin-bottom: 20%;
+        width: 100%;
+    }
+
+    .faqs {
+        padding:0;
+    }
+}

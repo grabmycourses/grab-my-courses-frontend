@@ -1,0 +1,276 @@
+/******** Email sharing pref div ********/
+
+.emailSharingPrefDiv {
+    width:80%;
+    margin: 3% auto 8% auto;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.emailSharingPrefDiv:hover {
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.emailSharingPrefDiv .emailSharingPrefDivContent {
+    width:95%;
+    margin: 1px auto;
+    padding: 4% 2% 4% 2%;
+}
+
+.emailSharingPrefDiv .emailSharingPrefDivHeading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.emailSharingPrefDivText1 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.emailSharingPrefDivText2 {
+    text-align: justify;
+}
+
+.emailSharingPrefDiv .emailSharingPrefDivText3 {
+    padding-top: 2%;
+    font-size: 22px;
+}
+
+.emailSharingPrefDiv button {
+    margin-top: 2%;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    .emailSharingPrefDiv {
+        width:95%;
+        margin-bottom: 20%;
+    }
+
+    .emailSharingPrefDiv .emailSharingPrefDivHeading {
+        font-size: 30px;
+    }
+}
+
+
+/******** Swapping options div ********/
+
+.swapPrefMainDiv {
+    width: 80%;
+    margin: 3% auto 4% auto;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+    text-align: center;
+}
+
+.swapPrefMainDiv:hover {
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.swapPrefMainDiv .swapPrefMainDivHeader {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.swapPrefMainDiv .swapPrefMainDivContent {
+    width:90%;
+    margin: 1px auto;
+    padding: 4% 2% 4% 2%;
+}
+
+.swapOptionsNestedDiv {
+    max-width: 80%;
+    margin:1px auto;
+}
+
+.swapOptionsNestedDiv .swapOptionsCard {
+    border-radius: 20px;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    .swapPrefMainDiv {
+        width: 95%;
+    }
+
+    .swapPrefMainDiv .swapPrefMainDivHeader {
+        font-size: 30px;
+    }
+}
+
+
+/******** Show drop options div ********/
+
+.showDropOptionsDiv {
+    width: 70%;
+    margin: 3% auto 4% auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.showDropOptionsDiv:hover {
+    width: 75%;
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.showDropOptionsDiv .showDropOptionsDivContent {
+    width:90%;
+    margin: 1px auto;
+    padding: 4% 2% 4% 2%;
+}
+
+.showDropOptionsDiv .showDropOptionsDivHeader{
+    font-size: 200%;
+    font-weight: 500;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    .showDropOptionsDiv {
+        width: 90%;
+    }
+
+    .showDropOptionsDiv:hover {
+        width: 94%;
+    }
+
+    .showDropOptionsDiv .showDropOptionsDivHeader{
+        font-size: 30px;
+    }
+}
+
+
+/******** Add drop options div ********/
+
+.addDropOptionDiv {
+    width: 70%;
+    margin: 2% auto 4% auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.addDropOptionDiv:hover {
+    width: 75%;
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.addDropOptionDiv .addDropOptionDivContent {
+    width:80%;
+    margin: 1px auto;
+    padding: 4% 2% 4% 2%;
+}
+
+.addDropOptionDiv .addDropOptionDivHeader {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.addDropOptionDiv .addDropOptionDivContent input[type="text"] {
+    /*border: 0;*/
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #3498db;
+    outline: none;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    .addDropOptionDiv {
+        width: 90%;
+        margin: 2% auto 4% auto;
+    }
+    
+    .addDropOptionDiv:hover {
+        width: 94%;
+    }
+
+    .addDropOptionDiv .addDropOptionDivHeader {
+        font-size: 30px;
+    }
+
+    .addDropOptionDiv .addDropOptionDivContent {
+        width:95%;
+    }
+
+    .addDropOptionDiv .addDropOptionDivContent input[type="text"] {
+        width: 80%;
+    }
+
+    .addDropOptionDiv .addDropOptionDivContent .myButton {
+        margin:5% auto 3% auto;
+    }
+}
+
+
+
+/******* remove drop options ********/
+
+.removeDropOptionsDiv {
+    width:70%;
+    text-align: center;
+    margin: 3% auto 4% auto;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.removeDropOptionsDiv:hover {
+    width: 75%;
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.removeDropOptionsDiv .removeDropOptionsDivContent {
+    width: 80%;
+    margin: 1px auto;
+    padding: 4% 2% 4% 2%;
+}
+
+.removeDropOptionsDiv .removeDropOptionsDivHeader{
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.removeDropOptionsDiv .removeDropOptionsDivContent .removeDropOptionsButton {
+    margin-top: 10%;
+}
+
+/* mobile specific */
+@media only screen and (max-width: 600px) {
+    .removeDropOptionsDiv {
+        width:90%;
+        margin: 3% auto 4% auto;
+    }
+    
+    .removeDropOptionsDiv:hover {
+        width: 94%;
+    }
+
+    .removeDropOptionsDiv .removeDropOptionsDivHeader{
+        font-size: 30px;
+    }
+
+    .removeDropOptionsDiv .removeDropOptionsDivContent .removeDropOptionsButton {
+        margin-bottom: 10%;
+    }
+}

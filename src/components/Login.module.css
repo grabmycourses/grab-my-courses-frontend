@@ -1,0 +1,110 @@
+.loginMainDiv {
+    background-image: url('../images/background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 900px;*/
+    font-family: 'Numans', sans-serif;
+
+    position: fixed;    
+    top: 0;    
+    left: 0;    
+    right: 0;   
+    bottom: 0;   
+    min-width: 100%;   
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* === for MOBILE === */
+@media only screen and (max-width: 600px) {
+    .loginForm {
+        width: 85%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10rem;
+        margin-bottom: 60px;
+    }
+}
+
+/* === for LAPTOP === */
+@media only screen and (min-width: 600px) {
+    .loginForm {
+        width: 35%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 8rem;
+        margin-bottom: 60px;
+    }
+}
+
+.loginForm {
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 80%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.loginForm h1 {
+    color: white;
+    font-weight: 100;
+}
+
+.loginForm input[type="text"]:focus,
+.loginForm input[type="password"]:focus {
+    width: 100%;
+    border-color: #2ecc71
+}
+
+.loginForm .myButton {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #2ecc71;
+    padding: 10px 50px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.loginForm .myButton:hover {
+    background: #2ecc71
+}
+
+.loginForm .new-user {
+    font-size: 1rem;
+} 
+
+.loginForm .forgot-password {
+    font-size: 1rem;
+}
+
+.loginForm .validationError {
+    color: red;
+}

@@ -1,0 +1,60 @@
+.feedbackOuterDiv {
+    width: 60%;
+    margin: 2% auto 90px auto;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3498db;
+}
+
+.feedbackOuterDiv:hover {
+    width: 63%;
+    box-shadow: 5px 5px 8px #3498db, -5px -5px 8px #3498db;
+    transition: 1.25s;
+}
+
+.feedbackHeading {
+    font-size: 250%;
+    font-weight: 500;
+    text-align: center;
+    margin: 2% auto 1% auto;
+}
+
+.feedbackOuterDiv .feedbackFormDiv {
+    padding: 4%;
+}
+
+.feedbackEmail {
+    padding-top: 10px;
+}
+
+.feedbackComment {
+    margin-top: 3%;
+}
+
+.feedbackSubmitBtn {
+    margin: 4% auto 1% auto;
+    display: block;
+}
+
+.feedbackConcludingText {
+    text-align: center;
+}
+
+/***** mobile specific *****/
+@media only screen and (max-width: 600px) {
+    .feedbackOuterDiv {
+        width: 90%;
+    }
+
+    .feedbackOuterDiv:hover {
+        width: 92%;
+        box-shadow: 3px 3px 5px #3498db, -3px -3px 5px #3498db;
+        transition: 1.25s;
+    }
+
+    .feedbackHeading {
+        font-size: 200%;
+        font-weight: 500;
+    }
+}
