@@ -8,7 +8,7 @@
 ##### 	1. It notifies students when there is an open seat in the course of their interest.
 ##### 	2. It provides a platform to help students swap/exchange their courses with fellow classmates.
 
-## Tech used:
+## Tech stack used:
 ##### The frontend of this webapp has been implemented using Reactjs framework. Major libraries that have been used include react-bootstrap, redux and axios etc.
 
 ## Presentation:
