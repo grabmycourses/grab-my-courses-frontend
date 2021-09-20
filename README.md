@@ -2,11 +2,16 @@
 
 ### Grab My Courses is a utility that has been created to help students get the courses they are looking for in their school. 
 
+## Problem statement:
 ##### Lots of schools have limited courses and each course also sometimes has limited seats itself. This leaves many students ending up taking courses they are not really interested in. That is the problem I wanted to solve.
 ##### The major features offered by this utility are:
 ##### 	1. It notifies students when there is an open seat in the course of their interest.
 ##### 	2. It provides a platform to help students swap/exchange their courses with fellow classmates.
 
+## Tech used:
+##### The frontend of this webapp has been implemented using Reactjs framework. Major libraries that have been used include react-bootstrap, redux and axios etc.
+
+## Presentation:
 ##### Following are some of the demo images for the public code presented as part of this repo:
 - Website home
 ![website home screen](src/images/demo/0home.jpg)
